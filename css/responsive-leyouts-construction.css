@@ -1,0 +1,421 @@
+/* Responsive CSS Styles Table of Contents */
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+.feature_section4 li.text {
+	margin-left: 2%;
+}
+
+.feature_section11 .box {
+	padding: 0px 20px;
+}
+.feature_section11 .box span {
+	margin-right: 10px;
+}
+
+.less6 {
+	width: 90%;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+.container {
+	width: 747px;
+	margin: auto;
+}
+
+.logo {
+	width: 40%;
+}
+.menu_main {
+	width: 97%;
+	position: absolute;
+}
+
+.slidermar_construction {
+	margin-top: 77px;
+}
+
+.feature_section8 .box-details p {
+	width: 100%;
+}
+
+.feature_section11 .box {
+	padding: 0px 20px;
+}
+.feature_section11 .box span {
+	margin-right: 10px;
+	font-size: 18px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.feature_section11 .box b {
+	font-size: 14px;
+}
+.feature_section11 .box strong {
+	font-size: 16px;
+}
+.feature_section11 .box i {
+	font-size: 18px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.clients-grid.grid li img {
+	width: 100%;
+}
+
+.less6 {
+	width: 100%;
+}
+
+}
+
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+
+.container {
+	width: 590px;
+	margin: auto;
+}
+
+.logo {
+	width: 50%;
+}
+.menu_main {
+	width: 93%;
+	position: absolute;
+}
+
+.slidermar_construction {
+	margin-top: 77px;
+}
+
+.feature_section5 h2 {
+	width: 100%;
+}
+
+.clients-grid.grid li img {
+	width: 100%;
+}
+
+.feature_section11 .box {
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: left;
+}
+
+.copyright_info .one_half {
+	margin-bottom: 0px;
+	text-align: left;
+}
+.copyright_info .one_half.last {
+	text-align: left;
+}
+
+.less6 {
+	width: 100%;
+}
+
+
+h1 {
+	font-size: 30px;
+	line-height: 30px;
+}
+h2 {
+	font-size: 23px;
+	line-height: 27px;
+}
+h3 {
+	font-size: 18px;
+	line-height: 25px;
+}
+h4 {
+	font-size: 16px;
+	line-height: 25px;
+}
+.feature_section1 h1 {
+	font-size: 23px;
+}
+.feature_section5 h1 {
+	font-size: 30px;
+}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 639px){
+
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.container {
+	width: 440px;
+	margin: auto;
+}
+
+.logo {
+	width: 75%;
+}
+.menu_main {
+	width: 93%;
+	position: absolute;
+}
+
+.slidermar_construction {
+	margin-top: 77px;
+}
+
+.feature_section5 h2 {
+	width: 100%;
+}
+
+.clients-grid.grid li img {
+	width: 100%;
+}
+
+.feature_section11 .box {
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: left;
+}
+
+.copyright_info .one_half {
+	margin-bottom: 0px;
+	text-align: left;
+}
+.copyright_info .one_half.last {
+	text-align: left;
+}
+
+.less6 {
+	width: 100%;
+}
+
+
+h1 {
+	font-size: 27px;
+	line-height: 27px;
+}
+h2 {
+	font-size: 21px;
+	line-height: 25px;
+}
+h3 {
+	font-size: 16px;
+	line-height: 25px;
+}
+h4 {
+	font-size: 16px;
+	line-height: 25px;
+}
+.feature_section1 h1 {
+	font-size: 23px;
+}
+.feature_section5 h1 {
+	font-size: 30px;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 479px){
+
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.container {
+	width: 300px;
+	margin: auto;
+}
+
+
+.logo {
+	width: 100%;
+}
+.menu_main {
+	width: 93%;
+	position: absolute;
+}
+
+.slidermar_construction {
+	margin-top: 77px;
+}
+
+.feature_section5 h2 {
+	width: 100%;
+}
+
+.clients-grid.grid li img {
+	width: 100%;
+}
+
+.feature_section11 .box {
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: left;
+}
+
+.feature_section7 .tabs > li {
+	padding: 5px 5px 7px 5px;
+	font-size: 12px;
+}
+.feature_section7 .tab__content > li .content__wrapper {
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+.copyright_info .one_half {
+	margin-bottom: 0px;
+	text-align: left;
+}
+.copyright_info .one_half.last {
+	text-align: left;
+}
+
+.less6 {
+	width: 100%;
+}
+
+
+h1 {
+	font-size: 21px;
+	line-height: 25px;
+}
+h2 {
+	font-size: 21px;
+	line-height: 25px;
+}
+h3 {
+	font-size: 16px;
+	line-height: 25px;
+}
+h4 {
+	font-size: 16px;
+	line-height: 25px;
+}
+.feature_section1 h1 {
+	font-size: 23px;
+}
+.feature_section5 h1 {
+	font-size: 30px;
+}
+
+
+}

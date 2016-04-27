@@ -1,0 +1,560 @@
+/* Responsive CSS Styles Table of Contents */
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+.feature_section4 .circlebox {
+	width:72%;
+}
+
+.feature_section7 .bcont {
+	padding: 20px 30px;
+}
+.feature_section7 .datecont {
+	margin-top:-346px;
+}
+.feature_section7 .bcontbox {
+	padding: 10px 8px;
+}
+.feature_section7 .datecontbox {
+	margin-top:-160px;
+	font-size:16px;
+	line-height:16px;
+}
+
+.feature_section9 .framebox{
+	width:70%;
+}
+
+.feature_section10 .contentbox  {
+	width: 50%;
+	margin-right: 0;
+}
+.feature_section10 h1 {
+	width:75%;
+}
+
+.less6 {
+	width: 75%;
+}
+.less10 {
+	width: 100%;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+.container {
+	width: 747px;
+	margin: auto;
+}
+
+.logoopv1 {
+	width: 50%;
+}
+.menuopv1 {
+	width: 50%;
+	margin-top: 0px;
+}
+
+.feature_section4 .circlebox {
+	width:77%;
+}
+.feature_section4 .circle {
+	margin-right:30px;
+}
+
+.feature_section7 .one_half_less,
+.feature_section7 .one_fourth_less {
+	width: 100%;
+}
+
+.feature_section9 .framebox{
+	width:75%;
+}
+
+.feature_section10 .contentbox  {
+	width: 63%;
+	margin-right: 0;
+}
+.feature_section10 h1 {
+	width:90%;
+}
+
+.less1 {
+	width: 90%;
+}
+.less6 {
+	width: 90%;
+}
+.less10 {
+	width: 100%;
+}
+
+
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+
+.container {
+	width: 590px;
+	margin: auto;
+}
+
+.logoopv1 {
+	width: 50%;
+}
+.menuopv1 {
+	width: 50%;
+	margin-top: 0px;
+}
+
+.feature_section4 .circlebox {
+	width:91%;
+}
+.feature_section4 .circle {
+	margin-right:18px;
+}
+
+.feature_section5 .left {
+	width: 100%;
+	margin-right:0%;
+	height: auto;
+	background: none;
+	padding:0px 0px 50px 0px;
+}
+.feature_section5 .right {
+	width: 100%;
+}
+.feature_section5 .rightleft {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.feature_section5 .left h5 {
+	margin-bottom: 0px;
+}
+
+.feature_section9 .framebox{
+	width:90%;
+}
+
+.feature_section10 .contentbox  {
+	width: 70%;
+	margin-right: 0;
+}
+.feature_section10 h1 {
+	width:90%;
+}
+
+.less1 {
+	width: 100%;
+}
+.less6 {
+	width: 100%;
+}
+.less10 {
+	width: 100%;
+}
+
+
+
+h1 {
+	font-size: 30px;
+	line-height: 30px;
+}
+h2 {
+	font-size: 23px;
+	line-height: 27px;
+}
+h3 {
+	font-size: 18px;
+	line-height: 25px;
+}
+h4 {
+	font-size: 16px;
+	line-height: 25px;
+}
+.feature_section4 h4 {
+	font-size: 45px;
+}
+
+.feature_section10 h2 {
+	font-size: 30px;
+	line-height: 30px;
+}
+.feature_section10 h1 {
+	font-size: 35px;
+	line-height:35px;
+}
+.feature_section2 h3 {
+	font-size: 23px;
+}
+.feature_section3 h3 {
+	font-size: 21px;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 639px){
+
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.container {
+	width: 440px;
+	margin: auto;
+}
+
+.logoopv1 {
+	width: 100%;
+	text-align: center;
+}
+.menuopv1 {
+	width: 100%;
+	margin-top: 0px;
+}
+
+.slidermar26 {
+	margin-top: 143px;
+}
+
+.feature_section4 .circlebox {
+	width:100%;
+}
+.feature_section4 .circle {
+	width:90px;
+	height:90px;
+	padding:23px 10px 0px 10px;
+	margin-right:20px;
+}
+.feature_section4 h4 {
+	font-size: 45px;
+}
+.feature_section4 p {
+	font-size: 12px;
+}
+
+.feature_section5 .left {
+	width: 100%;
+	margin-right:0%;
+	height: auto;
+	background: none;
+	padding:0px 0px 50px 0px;
+}
+.feature_section5 .right {
+	width: 100%;
+}
+.feature_section5 .rightleft {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.feature_section5 .left h5 {
+	margin-bottom: 0px;
+}
+
+.feature_section7 .datecont {
+	margin-top:-316px;
+}
+
+.feature_section9 .framebox{
+	width:100%;
+}
+
+.feature_section10 .contentbox  {
+	width: 90%;
+	margin-right: 0;
+}
+.feature_section10 h1 {
+	width:100%;
+}
+
+
+.less1 {
+	width: 100%;
+}
+.less6 {
+	width: 100%;
+}
+.less10 {
+	width: 100%;
+}
+
+
+h1 {
+	font-size: 27px;
+	line-height: 27px;
+}
+h2 {
+	font-size: 21px;
+	line-height: 25px;
+}
+h3 {
+	font-size: 16px;
+	line-height: 25px;
+}
+h4 {
+	font-size: 16px;
+	line-height: 25px;
+}
+.feature_section4 h4 {
+	font-size: 35px;
+}
+.feature_section10 h2 {
+	font-size: 21px;
+	line-height: 25px;
+}
+.feature_section10 h1 {
+	font-size: 27px;
+	line-height: 27px;
+}
+
+.feature_section2 h3 {
+	font-size: 18px;
+}
+.feature_section3 h3 {
+	font-size: 18px;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 479px){
+
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.container {
+	width: 300px;
+	margin: auto;
+}
+
+.logoopv1 {
+	width: 100%;
+	text-align: center;
+}
+.menuopv1 {
+	width: 100%;
+	margin-top: 0px;
+}
+
+.slidermar26 {
+	margin-top: 143px;
+}
+
+.feature_section4 .circlebox {
+	width:100%;
+}
+.feature_section4 .circle {
+	width:70px;
+	height:70px;
+	padding:16px 10px 0px 10px;
+	margin-right:5px;
+}
+.feature_section4 h4 {
+	font-size: 16px;
+	padding-bottom: 0px;
+}
+.feature_section4 p {
+	font-size: 10px;
+}
+
+
+.feature_section5 .left {
+	width: 100%;
+	margin-right:0%;
+	height: auto;
+	background: none;
+	padding:0px 0px 50px 0px;
+}
+.feature_section5 .right {
+	width: 100%;
+}
+.feature_section5 .rightleft {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.feature_section5 .left h5 {
+	margin-bottom: 0px;
+}
+
+.feature_section7 .datecont {
+	margin-top:-216px;
+}
+
+.feature_section9 .framebox{
+	width:100%;
+}
+.feature_section9 .framebox02{
+	padding:20px 20px 20px 20px;
+}
+.feature_section10 .contentbox  {
+	width: 90%;
+	margin-right: 0;
+}
+.feature_section10 h1 {
+	width:100%;
+}
+
+
+.less1 {
+	width: 100%;
+}
+.less6 {
+	width: 100%;
+}
+.less10 {
+	width: 100%;
+}
+
+
+
+
+h1 {
+	font-size: 21px;
+	line-height: 25px;
+}
+h2 {
+	font-size: 21px;
+	line-height: 25px;
+}
+h3 {
+	font-size: 16px;
+	line-height: 25px;
+}
+h4 {
+	font-size: 16px;
+	line-height: 25px;
+}
+.feature_section4 h4 {
+	font-size: 27px;
+}
+.feature_section10 h2 {
+	font-size: 21px;
+	line-height: 25px;
+}
+.feature_section10 h1 {
+	font-size: 27px;
+	line-height: 27px;
+}
+.feature_section2 h3 {
+	font-size: 18px;
+}
+.feature_section3 h3 {
+	font-size: 18px;
+}
+
+
+
+}

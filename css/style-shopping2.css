@@ -1,0 +1,687 @@
+/*-------------------------------------------------------
+[Table of contents]
+
+1. Header
+	+ logo
+	+ top navigation
+	+ search
+	
+2. Content
+	+ feature sections
+	+ page title
+	+ parallax backgrounds
+	+ video backgrounds
+	
+3. Sidebar
+	+ site search
+	+ tabs
+	+ portfolio widgets
+	+ advertisements
+
+3. Typography
+	+ lists
+	+ buttons
+	+ styled boxes
+	+ dropcaps
+	+ highlight colors
+	+ tables
+	+ pricing tables
+	+ framed boxes
+	+ pagination
+	
+4. Footer
+	+ copyrights
+	+ google map
+	
+
+/*----------------------------------------------------
+	SITE MAIN STRUCTURE
+------------------------------------------------------*/
+
+.site_wrapper {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+.container_full {
+	width: 100%;
+	float: left;
+	margin: auto;
+}
+.container {
+	width: 1170px;
+	margin: auto;
+}
+.content_fullwidth {
+	float: left;
+	width: 100%;
+	padding: 90px 0px 90px 0px;
+}
+.content_fullwidth.less {
+	padding: 0px 0px 90px 0px;
+}
+.content_fullwidth.less2 {
+	padding: 75px 0px 90px 0px;
+}
+.content_fullwidth.less3 {
+	padding: 75px 0px 30px 0px;
+}
+.content_left {
+	float: left;
+	width: 71%;
+	padding: 0px 0px 0px 0px;
+}
+.left_sidebar {
+	float: left;
+	width: 25%;
+	padding: 0px 0px 0px 0px;
+}
+.content_right {
+	float: right;
+	width: 71%;
+	padding: 0px 0px 0px 0px;
+}
+.right_sidebar {
+	float: right;
+	width: 25%;
+	padding: 0px 0px 0px 0px;
+}
+.content_halfsite {
+	float: left;
+	width: 47.5%;
+	margin-right: 5%;
+	padding: 0px 0px 0px 0px;
+}
+.content_halfsite.last {
+	margin-right: 0;
+}
+
+
+/*-------------------*/
+/*     columns    */
+/*-------------------*/
+
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive {
+	position: relative;
+	margin-right: 4%;
+	float: left;
+}
+.one_full {
+	width: 100%;
+}
+.one_half {
+	width: 48%;
+}
+.one_third {
+	width: 30.650%;
+}
+.one_fourth {
+	width: 22%;
+}
+.one_fifth {
+	width: 16.800%;
+}
+.two_third {
+	width: 65.350%;
+}
+.three_fourth {
+	width: 74%;
+}
+.onecol_forty {
+	width: 40%;
+}
+.onecol_sixty {
+	width: 56%;
+}
+.onecol_thirtyfive {
+	width: 35%;
+}
+
+
+/*-----------------------------------*/
+/*  Less Space Bitween Columns     */
+/*-----------------------------------*/
+
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 2%;
+	float: left;
+}
+.one_full_less {
+	width: 100%;
+}
+.one_half_less {
+	width: 49%;
+}
+.one_third_less {
+	width: 32%;
+}
+.one_fourth_less {
+	width: 23.500%;
+}
+.one_fifth_less {
+	width: 18.400%;
+}
+.two_third_less {
+	width: 66%;
+}
+.three_fourth_less {
+	width: 74.500%;
+}
+.onecol_forty_less {
+	width: 40%;
+}
+.onecol_sixty_less {
+	width: 58%;
+}
+.onecol_thirtyfive_less {
+	width: 36.250%;
+}
+.last {
+	margin-right: 0 !important;
+}
+
+
+/*------------------------*/
+/*        Header     */
+/*------------------------*/
+
+/* Logo */
+#logo {
+	float: left;
+	display: block;
+	width: 100%;
+	min-height: 50px;
+	margin-top: 12px;
+	position: relative;
+	text-indent: -999em;
+	background: url(../images/logo17.png) no-repeat left top;
+}
+.logo {
+	float: left;
+	width: 25%;
+	margin-top: 5px;
+}
+.menu_main {
+	float: left;
+	width: 75%;
+	z-index: 9999;
+}
+
+.slidermar33 {
+	margin-top: 85px;
+}
+
+
+/*-----------------------------
+   FEATURE SECTIONS
+------------------------------*/
+/* features_section 1 */
+.feature_section1 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:50px 0px;	
+}
+.feature_section1 .box01{
+	background-image: url(http://placehold.it/160x200);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #f3f3f3;
+	text-align:left;
+	height: 200px;
+	padding: 57px 0px 0px 45px;
+}
+.feature_section1 .box02{
+	background-image: url(http://placehold.it/160x200);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #f1eee8;
+	text-align:left;
+	height: 200px;
+	padding: 57px 0px 0px 45px;
+}
+.feature_section1  .box03{
+	background-image: url(http://placehold.it/160x200);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #f3f3f3;
+	text-align:left;
+	height: 200px;
+	padding: 57px 0px 0px 45px;
+}
+.feature_section1 h1{
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight:normal;
+	color: #272727;
+	font-size:27px;
+	margin-bottom:0px;
+}
+.feature_section1 h1 b{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	color: #272727;
+	font-size:18px;
+	margin-bottom:0px;
+}
+.feature_section1 h2{
+	font-family: 'Dancing Script', sans-serif;
+	font-weight:normal;
+	color: #272727;
+	font-size:27px;
+	margin-bottom:0px;
+	text-transform:none;
+}
+.feature_section1 h2 b{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	color: #272727;
+	font-size:18px;
+	margin-bottom:0px;
+}
+.feature_section1 .arrow_box {
+	position: relative;
+	background: #e9b63d;
+	margin-top: 10px;
+	float: left;
+	height: 16px;
+	width: 21px;
+}
+.feature_section1 .arrow_box:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(233, 182, 61, 0);
+	border-left-color: #e9b63d;
+	border-width: 8px;
+	margin-top: -8px;
+}
+
+/* features_section 2 */
+.feature_section2 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:25px 0px 72px 0px;	
+}
+.feature_section2 .one_fourth_less{
+	text-align:center;
+	border-bottom:solid 1px #ebeff3;
+	padding-bottom:15px;
+}
+.feature_section2 h5 {
+	font-size:14px;
+	font-weight:600;
+	padding-top:15px;
+	text-transform:uppercase;
+	margin-bottom:0px;
+}
+.feature_section2 h4 {
+	font-weight:bold;
+	padding-top: 6px;
+	color: #e9b63d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.feature_section2 h4 em {
+	font: 14px 'Open Sans', sans-serif;
+	font-weight:normal;
+	text-decoration: line-through;
+	font-style: normal;
+	color:#727272;
+}
+
+
+/* features_section 3 */
+.feature_section3 {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.feature_section3 .left {
+	float: left;
+	width: 50%;
+	text-align: left;
+	background:#f1eee8;
+	background-image: url(http://placehold.it/300x500);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding:193px 0px 150px 90px;
+}
+.feature_section3 h4 {
+	font-weight:bold;
+}
+.feature_section3 h1 {
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:35px;
+}
+.feature_section3 .right {
+	float: left;
+	width: 50%;
+	text-align: left;
+	background:#cac8c6;
+	background-image: url(http://placehold.it/300x500);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding:193px 0px 150px 75px;
+}
+
+
+/* features_section 4 */
+.feature_section4 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:90px 0px 0px 0px;
+}
+.feature_section4 .img{
+	background-image:url(http://placehold.it/1170x300);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding:80px 0px;
+	background-size: 100%;
+}
+.feature_section4 h1 {
+	font: 45px 'Open Sans', sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	line-height:27px;
+	margin-bottom:0px;
+}
+.feature_section4 h1 em {
+	font: 67px 'Open Sans', sans-serif;
+	font-weight:bold;
+}
+.feature_section4 p {
+	font: 18px 'Open Sans', sans-serif;
+	font-weight:600;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+
+/* features_section 5 */
+.feature_section5 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:75px 0px;
+}
+.feature_section5 h3 {
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform:uppercase;
+	margin-bottom:30px;
+}
+.feature_section5 .one_fourth_less{
+	text-align:center;
+	border-bottom:solid 1px #ebeff3;
+	padding-bottom:15px;
+}
+.feature_section5 h5 {
+	font-size:14px;
+	font-weight:600;
+	padding-top:15px;
+	text-transform:uppercase;
+	margin-bottom:0px;
+}
+.feature_section5 h4 {
+	font-weight:bold;
+	padding-top: 6px;
+	color: #e9b63d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.feature_section5 h4 em {
+	font: 14px 'Open Sans', sans-serif;
+	font-weight:normal;
+	text-decoration: line-through;
+	font-style: normal;
+	color:#727272;
+}
+
+
+
+
+/* feature_section 14 */
+.feature_section14 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	background: #f3f3f3;
+}
+.feature_section14 h4{
+	font-size: 18px;
+	font-weight:200px;
+	letter-spacing:normal;
+}
+.feature_section14 li {
+	float: left;
+	width: 16.66%;
+	border-right: 1px solid #e3e3e3;
+}
+.feature_section14 li.last {
+	border-right: none;
+}
+.feature_section14 span {
+	color: #999;
+	font-size: 35px;
+	display: block;
+	margin-bottom: 14px;
+}
+.feature_section14 li:hover span {
+	color: #ee7164;
+}
+
+
+/*-------------------------
+ FOOTER STYLES
+--------------------------*/
+
+.footer {
+	float: left;
+	width: 100%;
+	padding: 75px 0px 0px 0px;
+	background: #272727;
+	color: #fff;
+	font-size: 13px;
+	text-align:left;
+}
+
+.footer h4 {
+	font-size: 18px;
+	color: #fff;
+	font-weight:600;
+	text-transform:uppercase;
+	letter-spacing:normal;
+}
+
+/* Address */
+ul.faddress {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.faddress li {
+	padding: 2px 0px;
+	margin: 0px;
+}
+.faddress li a {
+	color: #999;
+	transition: all 0.3s ease;
+}
+.faddress li a:hover {
+	color: #fff;
+}
+
+/* quick links */
+.qlinks {
+	float: left;
+	width: 100%;
+}
+.qlinks ul {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 5px 0px 0px 0px;
+}
+.qlinks li {
+	padding: 4px 0px;
+	margin: 0px;
+}
+.qlinks li a {
+	color: #fff;
+	transition: all 0.3s ease;
+}
+.qlinks li a:hover {
+	color: #999;
+}
+.qlinks li a i {
+	margin-right: 3px;
+}
+
+.qlinks.two li a i {
+	color: #5b5c60;
+	font-size: 5px;
+	margin-right: 8px;
+}
+
+
+/* twitter feeds */
+.twitter_feeds_three {
+	float: left;
+	padding: 0px;
+	margin: 9px 0px 0px 0px;
+}
+.twitter_feeds_three li {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.twitter_feeds_three li.bhline {
+	padding-bottom: 22px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #3d3d3d;
+}
+.twitter_feeds_three li a {
+	color: #fff;
+	transition: all 0.3s ease;
+}
+.twitter_feeds_three li a:hover {
+	color: #999;
+}
+.twitter_feeds_three li i {
+	padding: 0px;
+	margin: 0px 5px 0px 0px;
+}
+.twitter_feeds_three li em {
+	float: left;
+	font-size: 10px;
+	font-style: normal;
+	color: #727272;
+}
+.twitter_feeds_three li em a {
+	color: #727272;
+	transition: all 0.3s ease;
+}
+.twitter_feeds_three li em a:hover {
+	color: #727272;
+	text-decoration: underline;
+}
+.twitter_feeds_three li.bhline.two {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+
+/* flickr */
+#flickr_badge_wrapper {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+#flickr_badge_wrapper img {
+	width: 70px;
+	height: 70px;
+	margin-right: 2px;
+	border: 0px solid #999 !important;
+}
+#flickr_www {
+	display:block;
+	padding:0 10px 0 10px !important;
+}
+#flickr_badge_uber_wrapper a:hover,
+#flickr_badge_uber_wrapper a:link,
+#flickr_badge_uber_wrapper a:active,
+#flickr_badge_uber_wrapper a:visited {
+	text-decoration:none !important;
+	background:inherit !important;
+	color:#3993ff;
+}
+#flickr_badge_wrapper {
+	margin-top: 25px;
+}
+#flickr_badge_source {
+	padding:0 !important;
+}
+
+/* copyrights */
+.copyright_info {
+	float: left;
+	padding: 35px 0px 25px 0px;
+	margin: 61px 0px 0px 0px;
+	width: 100%;
+	color: #585858;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	background: #1f1f1f;
+}
+.copyright_info a {
+	margin-top: 10px;
+	font-size: 12px;
+	color: #585858;
+	text-align: right;
+	transition: all 0.3s ease;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.copyright_info a:hover {
+	color: #e3e3e3;
+}
+
+/* footer social links */
+ul.footer_social_links {
+	float: right;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+.footer_social_links li {
+	float: left;
+	padding: 0px;
+	margin: 0px 0px 0px 5px;
+}
+.footer_social_links li a i {
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	border-radius: 100%;
+	line-height: 24px;
+	vertical-align: middle;
+	background-color: #303030;
+	color: #6f6f71;
+	transition: all 0.3s ease;
+}
+.footer_social_links li a i:hover {
+	color: #fff;
+	background-color: #727272;
+}
+
+
+
